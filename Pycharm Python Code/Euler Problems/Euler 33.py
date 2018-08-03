@@ -9,21 +9,23 @@ def simplifyFraction (n,d):
 fractions = []
 
 for n in range (10,100):
+
     for d in range(10,100):
 
-        print(n)
+        numer = n
+        denom = d
 
         #Splitting the numerator and denominator.
-        nSplit = [int(z) for z in str(n)]
-        dSplit = [int(s) for s in str(d)]
+        nSplit = [int(z) for z in str(numer)]
+        dSplit = [int(s) for s in str(denom)]
 
         if not nSplit.__contains__(0) and not dSplit.__contains__(0):
 
             #Removing common values in numerator and denominator.
-            for n in nSplit:
-                if n in dSplit and n != 0:
-                    dSplit.remove(n)
-                    nSplit.remove(n)
+            for k in nSplit:
+                if k in dSplit and k != 0:
+                    dSplit.remove(k)
+                    nSplit.remove(k)
 
             #Place a 1 in the fraction where there is no number.
             if len(nSplit) == 0:
@@ -41,9 +43,10 @@ for n in range (10,100):
             simDenom = int(simDenom)
 
             simplFract = simplifyFraction(n,d)
-            #print(simplFract)
-
-            if simNumer == simplFract[0] and simDenom == simplFract[1]:
-                fractions.append(str(n," / ",d))
-
+            if len(simplFract) == 2:
+                if simNumer == int(simplFract[0]) and simDenom == int(simplFract[1]):
+                    if n/d <1:
+                        if len(str(n)) == 2 and len(str(d)) == 2:
+                            fractions.append(str(n)+" / "+str(d))
+print(len(fractions))
 print(fractions)
