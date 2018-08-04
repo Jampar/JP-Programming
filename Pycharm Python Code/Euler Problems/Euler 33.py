@@ -1,52 +1,70 @@
 from fractions import Fraction
 
 def simplifyFraction (n,d):
+
     fract = Fraction(n,d)
     simFract = str(fract)
     simFract = simFract.split("/")
-    return simFract
 
-fractions = []
+    sintFract = []
 
-for n in range (10,100):
+    for n in simFract:
+        sintFract.append(int(n))
 
-    for d in range(10,100):
+    return sintFract
 
-        numer = n
-        denom = d
+def removeCommonValues(a):
 
-        #Splitting the numerator and denominator.
-        nSplit = [int(z) for z in str(numer)]
-        dSplit = [int(s) for s in str(denom)]
+        nSplit = [int(n) for n in str(a[0])]
+        dSplit = [int(d) for d in str(a[1])]
 
-        if not nSplit.__contains__(0) and not dSplit.__contains__(0):
+        for digit in nSplit:
+            if dSplit.__contains__(digit):
+                nSplit.remove(digit)
+                dSplit.remove(digit)
 
-            #Removing common values in numerator and denominator.
-            for k in nSplit:
-                if k in dSplit and k != 0:
-                    dSplit.remove(k)
-                    nSplit.remove(k)
+        fraction=[]
 
-            #Place a 1 in the fraction where there is no number.
-            if len(nSplit) == 0:
-                nSplit.append(1)
+        fraction.append(int(''.join(str(x) for x in nSplit)))
+        fraction.append(int(''.join(str(x) for x in dSplit)))
 
-            if len(dSplit) == 0:
-                nSplit.append(1)
 
-            #Join the split numer and deno to form simplified numbers.
-            simNumer = ''.join(str(v) for v in nSplit)
-            simDenom = ''.join(str(v) for v in dSplit)
+        return fraction
 
-            #Casts the joined numbers to ints
-            simNumer = int(simNumer)
-            simDenom = int(simDenom)
+simpleFractions = []
+rawFractions = []
+insimFractions = []
+correctFractions = []
 
-            simplFract = simplifyFraction(n,d)
-            if len(simplFract) == 2:
-                if simNumer == int(simplFract[0]) and simDenom == int(simplFract[1]):
-                    if n/d <1:
-                        if len(str(n)) == 2 and len(str(d)) == 2:
-                            fractions.append(str(n)+" / "+str(d))
-print(len(fractions))
-print(fractions)
+for n in range (10,101):
+
+    for d in range(10,101):
+
+        if n % 10 != 0 or d % 10 != 0:
+            if n/d < 1:
+                fraction = simplifyFraction(n,d)
+                simpleFractions.append(fraction)
+
+                rawFractions.append([n,d])
+
+for r in rawFractions:
+    frac = removeCommonValues(r)
+    insimFractions.append(frac)
+
+for f in range(0,simpleFractions.__len__()):
+    if simpleFractions[f] == insimFractions[f] and insimFractions[f] != rawFractions[f]:
+        correctFractions.append(rawFractions[f])
+
+print(correctFractions)
+
+totalNProduct = 1
+totalDProduct = 1
+
+for fract in correctFractions:
+    totalNProduct *= fract[0]
+    totalDProduct *= fract[1]
+
+totalNProduct *= 4
+totalDProduct *= 8
+
+print(Fraction(totalNProduct,totalDProduct))
