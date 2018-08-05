@@ -15,8 +15,12 @@ def is_prime(n):
     return True
 
 
+def all_primes(lista):
+    """Check if all numbers in `lista` are primes."""
+    return all(is_prime(n) for n in lista)
+
 complete = False
-i = 3797
+i = 8
 truncPrimes = []
 variation = []
 
@@ -30,15 +34,17 @@ while not complete:
 
         variation = list(filter(None, variation))
         variation = [int(x) for x in variation]
-        print(variation)
+        variation.sort(key=int)
 
-    if (is_prime(item) for item in variation):
-        truncPrimes.append(i)
+        if all_primes(variation):
+            truncPrimes.append(i)
+
+    variation.clear()
 
     if len(truncPrimes) == 11:
         complete = True
 
-    variation.clear()
     i += 1
 
+print(truncPrimes)
 print(sum(truncPrimes))
