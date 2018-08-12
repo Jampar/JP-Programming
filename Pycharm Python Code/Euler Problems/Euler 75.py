@@ -3,7 +3,7 @@ import time
 from collections import Counter
 
 first = time.time()
-targetLength = 10000000
+loopLength = 10000000
 
 
 def oppParity(m, n):
@@ -71,7 +71,7 @@ def generate_nonPrimitives(primitives):
 
 
 def generate_triples():
-    primitives = generate_primitives(targetLength)
+    primitives = generate_primitives(loopLength)
     non_Primitives = generate_nonPrimitives(primitives)
 
     triples = primitives + non_Primitives
