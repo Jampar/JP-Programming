@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca3ac28f-278c-45be-abeb-6a4e6d784fd9" name="Default" comment="Adding CoinTrayFormula">
-      <change beforePath="$PROJECT_DIR$/.idea/Pycharm Python Code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Pycharm Python Code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="ca3ac28f-278c-45be-abeb-6a4e6d784fd9" name="Default" comment="Euler 182">
+      <change afterPath="$PROJECT_DIR$/Euler Problems/Euler 527.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Euler Problems/Euler 395.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Euler Problems/Euler 395.py" beforeDir="false" afterPath="$PROJECT_DIR$/Euler Problems/Euler 182.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/Titanic/TitanicSQLFormat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/Titanic/TitanicTrain.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/Titanic/train.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/Titanic/trainingData.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Euler Problems/Euler 182.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/Titanic/Titanic SVM.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,30 +20,55 @@
     <session id="1107791953">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="1" />
+          <entry key="csv" value="2" />
+          <entry key="py" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="1" />
+          <entry key="CSV" value="2" />
+          <entry key="Python" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="4" />
+          <entry key="py" value="3243" />
+          <entry key="txt" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="Python" value="3243" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Euler Problems/Euler 182.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/Titanic/Titanic SVM.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <marker date="1534694148138" expanded="true" signature="631:633" ph="..." />
+                <marker date="1534694148138" expanded="true" signature="818:819" ph="..." />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -63,10 +89,13 @@
         <option value="$PROJECT_DIR$/Euler Problems/Euler 33.py" />
         <option value="$PROJECT_DIR$/CoinTrayFormula/Overlap.py" />
         <option value="$PROJECT_DIR$/Euler Problems/Euler 182.py" />
+        <option value="$PROJECT_DIR$/Euler Problems/Euler 527.py" />
+        <option value="$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/Titanic/Titanic SVm.py" />
+        <option value="$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/Titanic/Titanic SVM.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="1929" />
     <option name="height" value="1047" />
@@ -77,7 +106,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -88,7 +116,28 @@
             <path>
               <item name="Pycharm Python Code" type="b2602c69:ProjectViewProjectNode" />
               <item name="Pycharm Python Code" type="462c0819:PsiDirectoryNode" />
-              <item name="Euler Problems" type="462c0819:PsiDirectoryNode" />
+              <item name="Data Science" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pycharm Python Code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pycharm Python Code" type="462c0819:PsiDirectoryNode" />
+              <item name="Data Science" type="462c0819:PsiDirectoryNode" />
+              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pycharm Python Code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pycharm Python Code" type="462c0819:PsiDirectoryNode" />
+              <item name="Data Science" type="462c0819:PsiDirectoryNode" />
+              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="Kaggle Competitions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pycharm Python Code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pycharm Python Code" type="462c0819:PsiDirectoryNode" />
+              <item name="Data Science" type="462c0819:PsiDirectoryNode" />
+              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="Kaggle Competitions" type="462c0819:PsiDirectoryNode" />
+              <item name="Titanic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Pycharm Python Code" type="b2602c69:ProjectViewProjectNode" />
@@ -99,6 +148,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -117,7 +167,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Overlap">
+  <component name="RunManager" selected="Python.Titanic SVM">
+    <configuration name="Euler 182" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pycharm Python Code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Euler Problems" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="E:\Documents\GitHub\JP-Programming\Pycharm Python Code\Euler Problems\Euler 527.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Euler 24" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Pycharm Python Code" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -131,6 +202,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Euler Problems/Euler 24.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Euler 527" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pycharm Python Code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Euler Problems" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Euler Problems/Euler 527.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,12 +252,39 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Titanic SVM" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pycharm Python Code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/Titanic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/Titanic/Titanic SVM.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.Euler 24" />
       <item itemvalue="Python.Overlap" />
+      <item itemvalue="Python.Euler 182" />
+      <item itemvalue="Python.Euler 527" />
+      <item itemvalue="Python.Titanic SVM" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Titanic SVM" />
+        <item itemvalue="Python.Euler 527" />
+        <item itemvalue="Python.Euler 182" />
         <item itemvalue="Python.Overlap" />
         <item itemvalue="Python.Euler 24" />
       </list>
@@ -203,20 +322,27 @@
       <option name="project" value="LOCAL" />
       <updated>1534449631466</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Euler 182">
+      <created>1534503277117</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1534503277117</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1929" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24960339" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24868283" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32905984" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32502708" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -235,7 +361,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding CoinTrayFormula" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding CoinTrayFormula" />
+    <MESSAGE value="Euler 182" />
+    <option name="LAST_COMMIT_MESSAGE" value="Euler 182" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Euler Problems/Euler 33.py">
@@ -263,14 +390,63 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Euler Problems/Euler 395.py" />
+    <entry file="file://$PROJECT_DIR$/Euler Problems/Euler 76.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Euler Problems/Euler 77.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Euler Problems/Euler 92.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Euler Problems/Euler 139.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" selection-start-line="15" selection-end-line="19" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Euler Problems/Euler 182.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/Euler Problems/Euler 527.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/Titanic/gender_submission.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/Titanic/test.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/sklearn/neighbors/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="789" selection-start-line="789" selection-end-line="789" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/Titanic/Titanic SVM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <marker date="1534694148138" expanded="true" signature="631:633" ph="..." />
+            <marker date="1534694148138" expanded="true" signature="818:819" ph="..." />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
