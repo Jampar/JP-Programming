@@ -1,7 +1,7 @@
 import time
 start = time.time()
 import numpy as np
-
+from sklearn import svm
 
 def load_training_data(filename):
 
@@ -15,14 +15,8 @@ def load_training_data(filename):
 
         for row in reader:
 
-            if row [2] == 'male':
-                row[2] = 0
-            else:
-                row[2] = 1
-
-
-            row = [round(float(x)) for x in row]
             row = [x for x in row if x is not '']
+            row = [round(float(x)) for x in row]
 
             if len(row) == 7:
                 labels.append(int(row[0]))
@@ -34,9 +28,7 @@ def load_training_data(filename):
 Y = load_training_data("train.csv")[0]
 X = load_training_data("train.csv")[1]
 
-from sklearn.neighbors import KNeighborsClassifier
-
-classifer = KNeighborsClassifier()
+classifer = svm.SVC(kernel='linear')
 classifer.fit(X,Y)
 
 finish = time.time()
