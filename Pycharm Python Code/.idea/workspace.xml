@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca3ac28f-278c-45be-abeb-6a4e6d784fd9" name="Default" comment="Titanic ML">
+      <change afterPath="$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/CostaRicanPoverty/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data Science/MachineLearning/My SVM/LagrangeModeling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data Science/MachineLearning/My SVM/SVM.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Pycharm Python Code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Pycharm Python Code.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CoinTrayFormula/Overlap.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/Titanic/Titanic SVM.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/Titanic/Titanic SVM.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/Titanic/train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/Titanic/train.csv" afterDir="false" />
     </list>
@@ -16,79 +23,67 @@
     <session id="1107791953">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="25" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.3" value="3" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="3" />
+          <entry key="project.open.time.3" value="5" />
+          <entry key="project.open.time.4" value="7" />
+          <entry key="project.open.time.5" value="5" />
+          <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="4" />
-          <entry key="py" value="7" />
+          <entry key="csv" value="52" />
+          <entry key="ipynb" value="5" />
+          <entry key="py" value="17" />
+          <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSV" value="4" />
-          <entry key="Python" value="7" />
+          <entry key="CSV" value="52" />
+          <entry key="IPNB" value="5" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Python" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="csv" value="3" />
           <entry key="dummy" value="4" />
-          <entry key="py" value="3363" />
+          <entry key="py" value="11295" />
           <entry key="txt" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="CSV" value="3" />
           <entry key="PLAIN_TEXT" value="28" />
-          <entry key="Python" value="3363" />
+          <entry key="Python" value="11295" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/Titanic/Titanic SVM.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-              <folding>
-                <marker date="1534758790409" expanded="true" signature="653:655" ph="..." />
-                <marker date="1534758790409" expanded="true" signature="790:791" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/Titanic/test.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/Titanic/train.csv">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>SQBmeaned</find>
+      <find>instlevel6</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -101,14 +96,26 @@
         <option value="$PROJECT_DIR$/Euler Problems/Euler 182.py" />
         <option value="$PROJECT_DIR$/Euler Problems/Euler 527.py" />
         <option value="$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/Titanic/Titanic SVm.py" />
+        <option value="$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/Titanic/gender_submission.csv" />
+        <option value="$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/Titanic/results.csv" />
+        <option value="$PROJECT_DIR$/Data Science/MachineLearning/My SVM/SVM.py" />
+        <option value="$PROJECT_DIR$/Data Science/MachineLearning/My SVM/MySVMDoc.ipynb" />
+        <option value="$PROJECT_DIR$/Data Science/MachineLearning/My SVM/LagrangeModeling.py" />
+        <option value="$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/Titanic/ReviewedTitanic.py" />
+        <option value="$PROJECT_DIR$/Puzzle 272/Notebook.ipynb" />
+        <option value="$PROJECT_DIR$/Puzzle 272/Lagrange Testing.py" />
+        <option value="$PROJECT_DIR$/Puzzle 272/CoinPuzzle.py" />
         <option value="$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/Titanic/Titanic SVM.py" />
+        <option value="$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/CostaRicanPoverty/all/Notebook.ipynb" />
+        <option value="$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/CostaRicanPoverty/main.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="1929" />
-    <option name="height" value="1047" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="121" />
+    <option name="y" value="266" />
+    <option name="width" value="1931" />
+    <option name="height" value="936" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -142,19 +149,6 @@
               <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
               <item name="Kaggle Competitions" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Pycharm Python Code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pycharm Python Code" type="462c0819:PsiDirectoryNode" />
-              <item name="Data Science" type="462c0819:PsiDirectoryNode" />
-              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="Kaggle Competitions" type="462c0819:PsiDirectoryNode" />
-              <item name="Titanic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Pycharm Python Code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pycharm Python Code" type="462c0819:PsiDirectoryNode" />
-              <item name="Euler Solutions" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -162,8 +156,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Documents\GitHub\JP-Programming\Pycharm Python Code\Data Science\MachineLearning\Kaggle Competitions\CostaRicanPoverty" />
+      <recent name="E:\Documents\GitHub\JP-Programming\Pycharm Python Code" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -177,8 +178,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Titanic SVM">
-    <configuration name="Euler 182" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.main">
+    <configuration name="CoinPuzzle" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Pycharm Python Code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -186,32 +187,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Euler Problems" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Puzzle 272" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\Documents\GitHub\JP-Programming\Pycharm Python Code\Euler Problems\Euler 527.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Euler 24" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Pycharm Python Code" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Euler Problems" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Euler Problems/Euler 24.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Puzzle 272/CoinPuzzle.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -241,7 +221,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Overlap" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="LagrangeModeling" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Pycharm Python Code" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -249,11 +229,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CoinTrayFormula" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data Science/MachineLearning/My SVM" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CoinTrayFormula/Overlap.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data Science/MachineLearning/My SVM/LagrangeModeling.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -283,20 +263,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pycharm Python Code" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/CostaRicanPoverty" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/CostaRicanPoverty/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.Euler 24" />
-      <item itemvalue="Python.Overlap" />
-      <item itemvalue="Python.Euler 182" />
       <item itemvalue="Python.Euler 527" />
       <item itemvalue="Python.Titanic SVM" />
+      <item itemvalue="Python.LagrangeModeling" />
+      <item itemvalue="Python.CoinPuzzle" />
+      <item itemvalue="Python.main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.CoinPuzzle" />
+        <item itemvalue="Python.LagrangeModeling" />
         <item itemvalue="Python.Titanic SVM" />
         <item itemvalue="Python.Euler 527" />
-        <item itemvalue="Python.Euler 182" />
-        <item itemvalue="Python.Overlap" />
-        <item itemvalue="Python.Euler 24" />
       </list>
     </recent_temporary>
   </component>
@@ -346,20 +347,26 @@
       <option name="project" value="LOCAL" />
       <updated>1534694160891</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Titanic ML">
+      <created>1534759303894</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1534759303894</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1929" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24960339" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25131717" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32822758" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934355" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32827735" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3109426" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869988" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -371,6 +378,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Data View" order="3" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="4" side_tool="true" visible="true" weight="0.32995737" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -400,13 +408,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CoinTrayFormula/Overlap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CoinTrayFormula/Overlap.py" />
     <entry file="file://$PROJECT_DIR$/Euler Problems/Euler 395.py" />
     <entry file="file://$PROJECT_DIR$/Euler Problems/Euler 76.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -431,13 +433,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/Titanic/gender_submission.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/sklearn/neighbors/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
@@ -445,26 +440,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/Titanic/Titanic SVM.py">
+    <entry file="file://$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/Titanic/gender_submission.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-          <folding>
-            <marker date="1534758790409" expanded="true" signature="653:655" ph="..." />
-            <marker date="1534758790409" expanded="true" signature="790:791" ph="..." />
-          </folding>
+        <state relative-caret-position="502">
+          <caret line="418" column="6" selection-start-line="418" selection-start-column="6" selection-end-line="418" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/Titanic/results.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="418" column="6" lean-forward="true" selection-start-line="418" selection-start-column="6" selection-end-line="418" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data Science/MachineLearning/My SVM/SVM.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data Science/MachineLearning/My SVM/MySVMDoc.ipynb" />
+    <entry file="file://$PROJECT_DIR$/Data Science/MachineLearning/My SVM/LagrangeModeling.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/Titanic/test.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        <state relative-caret-position="294">
+          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/Titanic/ReviewedTitanic.py" />
+    <entry file="file://$PROJECT_DIR$/Puzzle 272/Lagrange Testing.py" />
+    <entry file="file://$PROJECT_DIR$/Puzzle 272/CoinPuzzle.py" />
+    <entry file="file://$PROJECT_DIR$/Puzzle 272/Notebook.ipynb" />
+    <entry file="file://$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/Titanic/Titanic SVM.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/CostaRicanPoverty/all/Notebook.ipynb" />
     <entry file="file://$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/Titanic/train.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/CostaRicanPoverty/all/train.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1056" selection-start-column="1046" selection-end-column="1056" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/CostaRicanPoverty/results.csv" />
+    <entry file="file://$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/CostaRicanPoverty/all/Label Meaning.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="139" column="82" lean-forward="true" selection-start-line="139" selection-start-column="11" selection-end-line="139" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/CostaRicanPoverty/all/Missing Columns.txt">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pandas/core/frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="333" column="46" selection-start-line="333" selection-start-column="46" selection-end-line="333" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/CostaRicanPoverty/all/test.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/CostaRicanPoverty/all/sample_submission.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" column="14" lean-forward="true" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/CostaRicanPoverty/Result.csv" />
+    <entry file="file://$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/CostaRicanPoverty/Submission.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data Science/MachineLearning/Kaggle Competitions/CostaRicanPoverty/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="49" column="31" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

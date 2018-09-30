@@ -1,0 +1,6 @@
+True 0 monthly rent
+True 7 number of tablets owned
+True 20 Years behind in school
+True 102 years of education of female head of household, based on the interaction of escolari (years of education), head of household and gender, yes=1 and no=0
+True 139 square of the mean years of education of adults (>=18) in the household
+ 
