@@ -12,6 +12,7 @@ from matplotlib import pyplot as plt
 from PIL import Image
 
 import cv2
+
 cap = cv2.VideoCapture(1)
 
 # This is needed since the notebook is stored in the object_detection folder.
@@ -51,7 +52,6 @@ PATH_TO_LABELS = os.path.join('data', 'mscoco_label_map.pbtxt')
 
 NUM_CLASSES = 90
 
-
 # ## Download Model
 
 # In[5]:
@@ -60,9 +60,9 @@ opener = urllib.request.URLopener()
 opener.retrieve(DOWNLOAD_BASE + MODEL_FILE, MODEL_FILE)
 tar_file = tarfile.open(MODEL_FILE)
 for file in tar_file.getmembers():
-  file_name = os.path.basename(file.name)
-  if 'frozen_inference_graph.pb' in file_name:
-    tar_file.extract(file, os.getcwd())
+    file_name = os.path.basename(file.name)
+    if 'frozen_inference_graph.pb' in file_name:
+        tar_file.extract(file, os.getcwd())
 
 print("Retrieved model ...")
 
@@ -72,11 +72,11 @@ print("Retrieved model ...")
 
 detection_graph = tf.Graph()
 with detection_graph.as_default():
-  od_graph_def = tf.GraphDef()
-  with tf.gfile.GFile(PATH_TO_CKPT, 'rb') as fid:
-    serialized_graph = fid.read()
-    od_graph_def.ParseFromString(serialized_graph)
-    tf.import_graph_def(od_graph_def, name='')
+    od_graph_def = tf.GraphDef()
+    with tf.gfile.GFile(PATH_TO_CKPT, 'rb') as fid:
+        serialized_graph = fid.read()
+        od_graph_def.ParseFromString(serialized_graph)
+        tf.import_graph_def(od_graph_def, name='')
 
 print("Created graph ...")
 
@@ -85,8 +85,11 @@ print("Created graph ...")
 
 # In[7]:
 
-label_map = label_map_util.load_labelmap(os.path.join('C:/Program Files/Python36/Lib/site-packages/tensorflow/models/research/object_detection/data', 'mscoco_label_map.pbtxt'))
-categories = label_map_util.convert_label_map_to_categories(label_map, max_num_classes=NUM_CLASSES, use_display_name=True)
+label_map = label_map_util.load_labelmap(
+    os.path.join('C:/Program Files/Python36/Lib/site-packages/tensorflow/models/research/object_detection/data',
+                 'mscoco_label_map.pbtxt'))
+categories = label_map_util.convert_label_map_to_categories(label_map, max_num_classes=NUM_CLASSES,
+                                                            use_display_name=True)
 category_index = label_map_util.create_category_index(categories)
 
 
@@ -95,9 +98,9 @@ category_index = label_map_util.create_category_index(categories)
 # In[8]:
 
 def load_image_into_numpy_array(image):
-  (im_width, im_height) = image.size
-  return np.array(image.getdata()).reshape(
-      (im_height, im_width, 3)).astype(np.uint8)
+    (im_width, im_height) = image.size
+    return np.array(image.getdata()).reshape(
+        (im_height, im_width, 3)).astype(np.uint8)
 
 
 # # Detection
@@ -109,7 +112,7 @@ def load_image_into_numpy_array(image):
 # image2.jpg
 # If you want to test the code with your images, just add path to the images to the TEST_IMAGE_PATHS.
 PATH_TO_TEST_IMAGES_DIR = 'test_images'
-TEST_IMAGE_PATHS = [ os.path.join(PATH_TO_TEST_IMAGES_DIR, 'image{}.jpg'.format(i)) for i in range(1, 3) ]
+TEST_IMAGE_PATHS = [os.path.join(PATH_TO_TEST_IMAGES_DIR, 'image{}.jpg'.format(i)) for i in range(1, 3)]
 
 # Size, in inches, of the output images.
 IMAGE_SIZE = (12, 8)
@@ -132,18 +135,19 @@ with detection_graph.as_default():
             num_detections = detection_graph.get_tensor_by_name('num_detections:0')
             # Actual detection.
             print(image_np_expanded)
-            (boxes, scores, classes, num_detections) = sess.run([boxes, scores, classes, num_detections],feed_dict={image_tensor: image_np_expanded})
+            (boxes, scores, classes, num_detections) = sess.run([boxes, scores, classes, num_detections],
+                                                                feed_dict={image_tensor: image_np_expanded})
             # Visualization of the results of a detection.
             vis_util.visualize_boxes_and_labels_on_image_array(
-              image_np,
-              np.squeeze(boxes),
-              np.squeeze(classes).astype(np.int32),
-              np.squeeze(scores),
-              category_index,
-              use_normalized_coordinates=True,
-              line_thickness=8)
+                image_np,
+                np.squeeze(boxes),
+                np.squeeze(classes).astype(np.int32),
+                np.squeeze(scores),
+                category_index,
+                use_normalized_coordinates=True,
+                line_thickness=8)
 
-            cv2.imshow('object detection', cv2.resize(image_np, (800,600)))
+            cv2.imshow('object detection', cv2.resize(image_np, (800, 600)))
             if cv2.waitKey(25) & 0xFF == ord('q'):
                 cv2.destroyAllWindows()
                 sess.close()
