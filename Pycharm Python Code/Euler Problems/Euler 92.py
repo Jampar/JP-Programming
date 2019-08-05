@@ -1,34 +1,36 @@
-import math as m
-def FormNextNum(n):
-    s = str(n)
-    t = 0
+import numpy as np
+import time as t
 
-    digits = [int(digit) for digit in s]
+start = t.time()
+chain = []
+count = 0
 
-    for d in digits:
-        n = d**2
-        t += n
-    print(t)
-    return t
+def number_to_digit(n):
+    d = [int(d) for d in str(n)]
+    return d
 
-n1 = 0
-n2 = 0
-num = 0
-for i in range(2,10000001):
-    print("______________________________________________")
-    print(i)
-    while num != 1 or num != 89:
-        if num == 0:
-            num = FormNextNum(i)
-        else:
-            num = FormNextNum(num)
-        if num == 89:
-            n1 +=1
-            break
-        elif num == 1:
-            n2 +=1
-            break
+def square_digits(d):
+    s = [int(i)**2 for i in d]
+    return s
 
-print(n1)
+def next_number(n):
+    return sum(square_digits(number_to_digit(n)))
 
+def produce_chain(s):
+    n = next_number(s)
+    if(n == 1 or n== 89):
+        chain.append(n)
+        chain.clear()
+        return n
+    else:
+        chain.append(n)
+        return produce_chain(n)
 
+x = 0
+for i in range(1,10000001):
+    if produce_chain(i) == 89:
+        x+=1
+print(x)
+
+end = t.time()
+print("Time Take: %s" %(str(end-start)))

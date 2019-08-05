@@ -36,17 +36,21 @@ def solve(matrix,start):
     for j in range(start[0],tc.shape[1]):
         tc[j][start[1]] = matrix[j][start[1]] + tc[j-1][start[1]]
 
-    print(tc)
+    #Fill left column up
+    for l in reversed(range(0,start[0])):
+        tc[l][start[1]] = matrix[l][start[1]] + tc[l+1][start[1]]
 
     #Loop through filling in the total cost of each term in the matrix.
     for x in range(1,tc.shape[0]):
         for y in range(1,tc.shape[1]):
                 tc[x][y] = matrix[x][y] + min(tc[x-1][y],tc[x][y-1])
 
+    print(tc)
+
     #Return final value.
     return tc[tc.shape[0]-1,tc.shape[1]-1]
 
 
 matrix = load_matrix(test_path)
-cost = solve(matrix,[2,0])
+cost = solve(matrix,[0,0])
 print(cost)

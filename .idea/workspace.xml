@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d984aaa-38eb-4914-b2bf-5fc376f9232b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 39.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 81.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 82.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pycharm Python Code/Project Euler Dependencies/matrix" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pycharm Python Code/Project Euler Dependencies/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pneumonia Image Classification/project/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pneumonia Image Classification/project/utils/data_inputter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pneumonia Image Classification/project/utils/image_handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 41.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Python 40.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 39.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 39.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 82.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 82.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 92.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 92.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,35 +29,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pneumonia Image Classification/project/utils/data_inputter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 82.py">
+        <entry file="file://$PROJECT_DIR$/Pneumonia Image Classification/project/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-              <folding>
-                <element signature="e#288#570#0" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 81.py">
+        <entry file="file://$PROJECT_DIR$/Pneumonia Image Classification/project/utils/image_handler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="50" column="7" selection-end-line="50" selection-end-column="11" />
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
               <folding>
-                <element signature="e#288#570#0" />
+                <element signature="e#0#82#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pycharm Python Code/Project Euler Dependencies/test.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="2" selection-start-column="2" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -92,11 +95,19 @@
         <option value="$PROJECT_DIR$/LaserTurret/Computer Vision/Object_Detection.py" />
         <option value="$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 1.py" />
         <option value="$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 38.py" />
-        <option value="$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 39.py" />
         <option value="$PROJECT_DIR$/Pycharm Python Code/Project Euler Dependancies/matrix" />
         <option value="$PROJECT_DIR$/Pycharm Python Code/Project Euler Dependencies/test.txt" />
         <option value="$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 81.py" />
         <option value="$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 82.py" />
+        <option value="$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 92.py" />
+        <option value="$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 39 Tree.py" />
+        <option value="$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 39.py" />
+        <option value="$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Python 40.py" />
+        <option value="$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 41.py" />
+        <option value="$PROJECT_DIR$/Pneumonia Image Classification/data_inputter.py" />
+        <option value="$PROJECT_DIR$/Pneumonia Image Classification/project/utils/data_inputter.py" />
+        <option value="$PROJECT_DIR$/Pneumonia Image Classification/project/utils/image_handler.py" />
+        <option value="$PROJECT_DIR$/Pneumonia Image Classification/project/main.py" />
       </list>
     </option>
   </component>
@@ -128,25 +139,33 @@
             <path>
               <item name="JP-Programming" type="b2602c69:ProjectViewProjectNode" />
               <item name="JP-Programming" type="462c0819:PsiDirectoryNode" />
-              <item name="Pycharm Python Code" type="462c0819:PsiDirectoryNode" />
+              <item name="Pneumonia Image Classification" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JP-Programming" type="b2602c69:ProjectViewProjectNode" />
               <item name="JP-Programming" type="462c0819:PsiDirectoryNode" />
-              <item name="Pycharm Python Code" type="462c0819:PsiDirectoryNode" />
-              <item name="Data Science" type="462c0819:PsiDirectoryNode" />
+              <item name="Pneumonia Image Classification" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JP-Programming" type="b2602c69:ProjectViewProjectNode" />
               <item name="JP-Programming" type="462c0819:PsiDirectoryNode" />
-              <item name="Pycharm Python Code" type="462c0819:PsiDirectoryNode" />
-              <item name="Euler Problems" type="462c0819:PsiDirectoryNode" />
+              <item name="Pneumonia Image Classification" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JP-Programming" type="b2602c69:ProjectViewProjectNode" />
               <item name="JP-Programming" type="462c0819:PsiDirectoryNode" />
-              <item name="Pycharm Python Code" type="462c0819:PsiDirectoryNode" />
-              <item name="Project Euler Dependencies" type="462c0819:PsiDirectoryNode" />
+              <item name="Pneumonia Image Classification" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JP-Programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JP-Programming" type="462c0819:PsiDirectoryNode" />
+              <item name="Pneumonia Image Classification" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="chest_xray" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -164,16 +183,17 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Documents\GitHub\JP-Programming\LaserTurret\Computer Vision\TrainingData\Faces" />
-      <recent name="D:\Documents\GitHub\JP-Programming\LaserTurret\Computer Vision\TrainingData" />
-      <recent name="D:\Documents\GitHub\JP-Programming\LaserTurret\Computer Vision\Detection_Data" />
-      <recent name="D:\Documents\GitHub\JP-Programming\LaserTurret\Computer Vision" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\james\Documents\GitHub\JP\JP-Programming\Pycharm Python Code\Euler Problems" />
       <recent name="D:\Documents\GitHub\JP-Programming\LaserTurret\Computer Vision" />
       <recent name="D:\Documents\GitHub\JP-Programming\LaserTurret\Computer Vision\TrainingData\Faces" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\james\Documents\GitHub\JP\JP-Programming\Pneumonia Image Classification\project\utils" />
+      <recent name="C:\Users\james\Documents\GitHub\JP\JP-Programming\Pneumonia Image Classification\project" />
+      <recent name="D:\Documents\GitHub\JP-Programming\LaserTurret\Computer Vision\TrainingData\Faces" />
+      <recent name="D:\Documents\GitHub\JP-Programming\LaserTurret\Computer Vision\TrainingData" />
+      <recent name="D:\Documents\GitHub\JP-Programming\LaserTurret\Computer Vision\Detection_Data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -188,7 +208,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Euler 82">
+  <component name="RunManager" selected="Python.main">
     <configuration name="JP-Programming" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="JP-Programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -205,28 +225,6 @@
       <option name="additionalOptions" value="" />
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Euler 38" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="JP-Programming" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pycharm Python Code/Euler Problems" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 38.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="Euler 39" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -251,7 +249,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Euler 81 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Euler 41" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="JP-Programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -264,7 +262,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 81.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 41.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -273,7 +271,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Euler 81" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Euler 92" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="JP-Programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -286,7 +284,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\james\Documents\GitHub\JP\JP-Programming\Pycharm Python Code\Euler Problems\Euler 82.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 92.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -295,7 +293,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Euler 82" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Python 40" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="JP-Programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -308,7 +306,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 82.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Python 40.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -339,20 +337,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="JP-Programming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pneumonia Image Classification/project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pneumonia Image Classification/project/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.Euler 38" />
       <item itemvalue="Python.Euler 39" />
-      <item itemvalue="Python.Euler 81" />
-      <item itemvalue="Python.Euler 82" />
-      <item itemvalue="Python.Euler 81 (1)" />
+      <item itemvalue="Python.Euler 92" />
+      <item itemvalue="Python.Python 40" />
+      <item itemvalue="Python.Euler 41" />
+      <item itemvalue="Python.main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Euler 82" />
-        <item itemvalue="Python.Euler 81 (1)" />
-        <item itemvalue="Python.Euler 81" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.Euler 41" />
+        <item itemvalue="Python.Python 40" />
         <item itemvalue="Python.Euler 39" />
-        <item itemvalue="Python.Euler 38" />
+        <item itemvalue="Python.Euler 92" />
       </list>
     </recent_temporary>
   </component>
@@ -374,19 +394,25 @@
       <option name="project" value="LOCAL" />
       <updated>1550236901803</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Euler 81 &amp; 82">
+      <created>1561122353821</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1561122353821</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919224" weight="0.28996038" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979339" visible="true" weight="0.28996038" />
       <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Favorites" order="2" sideWeight="0.50080776" side_tool="true" weight="0.24973656" />
+      <window_info id="Favorites" order="2" sideWeight="0.50206614" side_tool="true" weight="0.28996038" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4966443" visible="true" weight="0.42574257" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4966443" weight="0.31541726" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39745402" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -394,7 +420,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32719395" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5033557" side_tool="true" weight="0.3744681" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32956153" />
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
@@ -472,7 +498,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Euler 38" />
-    <option name="LAST_COMMIT_MESSAGE" value="Euler 38" />
+    <MESSAGE value="Euler 81 &amp; 82" />
+    <option name="LAST_COMMIT_MESSAGE" value="Euler 81 &amp; 82" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Pycharm Python Code/Data Science/MachineLearning/Kaggle Competitions/Titanic/Titanic SVM.py">
@@ -541,13 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 39.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pycharm Python Code/Project Euler Dependencies/matrix">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
@@ -557,8 +577,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 82.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+        <state relative-caret-position="195">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="e#288#570#0" />
           </folding>
@@ -567,8 +587,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 81.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="50" column="7" selection-end-line="50" selection-end-column="11" />
+        <state relative-caret-position="272">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
           <folding>
             <element signature="e#288#570#0" />
           </folding>
@@ -579,6 +599,65 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="2" selection-start-column="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 92.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 39 Tree.py" />
+    <entry file="file://$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 39.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="71" column="11" lean-forward="true" selection-start-line="71" selection-start-column="11" selection-end-line="71" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Python 40.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="115" selection-start-line="9" selection-start-column="115" selection-end-line="9" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 41.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pneumonia Image Classification/project/utils/data_inputter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pneumonia Image Classification/project/utils/image_handler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pneumonia Image Classification/project/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
         </state>
       </provider>
     </entry>
