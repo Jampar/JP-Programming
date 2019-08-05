@@ -12,8 +12,12 @@ from matplotlib import pyplot as plt
 from PIL import Image
 
 import cv2
+<<<<<<< HEAD
+cap = cv2.VideoCapture(0)
+=======
 
 cap = cv2.VideoCapture(1)
+>>>>>>> 65eb93ae7c0e097f225ae4ff520d507b01858df6
 
 # This is needed since the notebook is stored in the object_detection folder.
 sys.path.append("..")
@@ -27,7 +31,7 @@ from utils import label_map_util
 
 from utils import visualization_utils as vis_util
 
-print("Finished Imports...")
+print("Finished Imports")
 
 # # Model preparation
 
@@ -40,7 +44,7 @@ print("Finished Imports...")
 # In[4]:
 
 # What model to download.
-MODEL_NAME = 'ssd_inception_v2_coco_2017_11_17'
+MODEL_NAME = 'ssd_mobilenet_v1_coco_2018_01_28'
 MODEL_FILE = MODEL_NAME + '.tar.gz'
 DOWNLOAD_BASE = 'http://download.tensorflow.org/models/object_detection/'
 
@@ -55,7 +59,11 @@ NUM_CLASSES = 90
 # ## Download Model
 
 # In[5]:
+print("Retrieving model...")
 
+<<<<<<< HEAD
+if not os.path.isfile(PATH_TO_CKPT):
+=======
 opener = urllib.request.URLopener()
 opener.retrieve(DOWNLOAD_BASE + MODEL_FILE, MODEL_FILE)
 tar_file = tarfile.open(MODEL_FILE)
@@ -63,12 +71,23 @@ for file in tar_file.getmembers():
     file_name = os.path.basename(file.name)
     if 'frozen_inference_graph.pb' in file_name:
         tar_file.extract(file, os.getcwd())
+>>>>>>> 65eb93ae7c0e097f225ae4ff520d507b01858df6
 
-print("Retrieved model ...")
+    opener = urllib.request.URLopener()
+    opener.retrieve(DOWNLOAD_BASE + MODEL_FILE, MODEL_FILE)
+    tar_file = tarfile.open(MODEL_FILE)
+    for file in tar_file.getmembers():
+      file_name = os.path.basename(file.name)
+      if 'frozen_inference_graph.pb' in file_name:
+        tar_file.extract(file, os.getcwd())
+
+
+print("Retrieved model")
 
 # ## Load a (frozen) Tensorflow model into memory.
 
 # In[6]:
+print("Creating graph...")
 
 detection_graph = tf.Graph()
 with detection_graph.as_default():
@@ -78,7 +97,7 @@ with detection_graph.as_default():
         od_graph_def.ParseFromString(serialized_graph)
         tf.import_graph_def(od_graph_def, name='')
 
-print("Created graph ...")
+print("Created graph")
 
 # ## Loading label map
 # Label maps map indices to category names, so that when our convolution network predicts `5`, we know that this corresponds to `airplane`.  Here we use internal utility functions, but anything that returns a dictionary mapping integers to appropriate string labels would be fine
@@ -103,21 +122,20 @@ def load_image_into_numpy_array(image):
         (im_height, im_width, 3)).astype(np.uint8)
 
 
-# # Detection
 
-# In[9]:
-
+<<<<<<< HEAD
+=======
 # For the sake of simplicity we will use only 2 images:
 # image1.jpg
 # image2.jpg
 # If you want to test the code with your images, just add path to the images to the TEST_IMAGE_PATHS.
 PATH_TO_TEST_IMAGES_DIR = 'test_images'
 TEST_IMAGE_PATHS = [os.path.join(PATH_TO_TEST_IMAGES_DIR, 'image{}.jpg'.format(i)) for i in range(1, 3)]
+>>>>>>> 65eb93ae7c0e097f225ae4ff520d507b01858df6
 
 # Size, in inches, of the output images.
 IMAGE_SIZE = (12, 8)
 
-print(detection_graph)
 
 with detection_graph.as_default():
     with tf.Session(graph=detection_graph) as sess:
@@ -134,6 +152,35 @@ with detection_graph.as_default():
             classes = detection_graph.get_tensor_by_name('detection_classes:0')
             num_detections = detection_graph.get_tensor_by_name('num_detections:0')
             # Actual detection.
+<<<<<<< HEAD
+            (boxes, scores, classes, num_detections) = sess.run([boxes, scores, classes, num_detections],feed_dict={image_tensor: image_np_expanded})
+            # Visualization of the results of a detection.
+            vis_util.visualize_boxes_and_labels_on_image_array(
+              image_np,
+              np.squeeze(boxes),
+              np.squeeze(classes).astype(np.int32),
+              np.squeeze(scores),
+              category_index,
+              use_normalized_coordinates=True,
+              line_thickness=8)
+
+
+
+            img = Image.fromarray(image_np, 'RGB')
+            im_width, im_height = img.size
+
+            for i, b in enumerate(boxes[0]):
+
+                ymin = boxes[0][i][0] * im_height
+                xmin = boxes[0][i][1] * im_width
+                ymax = boxes[0][i][2] * im_height
+                xmax = boxes[0][i][3] * im_width
+
+                m = (int(round(xmax+xmin)/2),int(round(ymax+ymin)/2))
+                cv2.circle(image_np, m, 5, (0, 0, 255), -1)
+
+            cv2.imshow('object detection', cv2.resize(image_np, (800,600)))
+=======
             print(image_np_expanded)
             (boxes, scores, classes, num_detections) = sess.run([boxes, scores, classes, num_detections],
                                                                 feed_dict={image_tensor: image_np_expanded})
@@ -148,6 +195,7 @@ with detection_graph.as_default():
                 line_thickness=8)
 
             cv2.imshow('object detection', cv2.resize(image_np, (800, 600)))
+>>>>>>> 65eb93ae7c0e097f225ae4ff520d507b01858df6
             if cv2.waitKey(25) & 0xFF == ord('q'):
                 cv2.destroyAllWindows()
                 sess.close()
