@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d984aaa-38eb-4914-b2bf-5fc376f9232b" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LaserTurret/Computer Vision/Object_Detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/LaserTurret/Computer Vision/Object_Detection.py" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 39.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 81.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 82.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pycharm Python Code/Project Euler Dependencies/matrix" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pycharm Python Code/Project Euler Dependencies/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> 65eb93ae7c0e097f225ae4ff520d507b01858df6
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,14 +23,53 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/JP_Programming$Euler_38.coverage" NAME="Euler 38 Coverage Results" MODIFIED="1550243975644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pycharm Python Code/Euler Problems" />
+    <SUITE FILE_PATH="coverage/JP_Programming$Object_Detection.coverage" NAME="Object_Detection Coverage Results" MODIFIED="1550229964549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LaserTurret/Computer Vision" />
+    <SUITE FILE_PATH="coverage/JP_Programming$Euler_39.coverage" NAME="Euler 39 Coverage Results" MODIFIED="1551876756429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pycharm Python Code/Euler Problems" />
+    <SUITE FILE_PATH="coverage/JP_Programming$Euler_81.coverage" NAME="Euler 81 Coverage Results" MODIFIED="1554374369584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pycharm Python Code/Euler Problems" />
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="JP-Programming" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/Chest X-Ray Classification/__init__.py">
           <provider selected="true" editor-type-id="text-editor" />
+=======
+        <entry file="file://$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 82.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+              <folding>
+                <element signature="e#288#570#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 81.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="612">
+              <caret line="50" column="7" selection-end-line="50" selection-end-column="11" />
+              <folding>
+                <element signature="e#288#570#0" />
+              </folding>
+            </state>
+          </provider>
+>>>>>>> 65eb93ae7c0e097f225ae4ff520d507b01858df6
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pycharm Python Code/Project Euler Dependencies/test.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="2" selection-start-column="2" selection-end-column="3" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -56,6 +104,7 @@
         <option value="$PROJECT_DIR$/LaserTurret/Computer Vision/object_detection_tutorial.ipynb" />
         <option value="$PROJECT_DIR$/LaserTurret/Computer Vision/FrameCap.py" />
         <option value="$PROJECT_DIR$/LaserTurret/Computer Vision/Object_Detection.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Pycharm Python Code/Data Science/MachineLearning/AI Bot/NLTK Test.py" />
         <option value="$PROJECT_DIR$/Pycharm Python Code/Data Science/MachineLearning/AI Bot/LanguageAnalysis.py" />
         <option value="$PROJECT_DIR$/Pycharm Python Code/Data Science/MachineLearning/AudioManager.py" />
@@ -66,14 +115,36 @@
         <option value="$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 81 Alt.py" />
         <option value="$PROJECT_DIR$/Chest X-Ray Classification/data_utils/data_input.py" />
         <option value="$PROJECT_DIR$/Chest X-Ray Classification/__init__.py" />
+=======
+        <option value="$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 1.py" />
+        <option value="$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 38.py" />
+        <option value="$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 39.py" />
+        <option value="$PROJECT_DIR$/Pycharm Python Code/Project Euler Dependancies/matrix" />
+        <option value="$PROJECT_DIR$/Pycharm Python Code/Project Euler Dependencies/test.txt" />
+        <option value="$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 81.py" />
+        <option value="$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 82.py" />
+>>>>>>> 65eb93ae7c0e097f225ae4ff520d507b01858df6
       </list>
     </option>
   </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
     <option name="x" value="462" />
     <option name="y" value="-8" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
+=======
+    <option name="x" value="-295" />
+    <option name="y" value="270" />
+    <option name="width" value="1935" />
+    <option name="height" value="940" />
+>>>>>>> 65eb93ae7c0e097f225ae4ff520d507b01858df6
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -91,13 +162,34 @@
             <path>
               <item name="JP-Programming" type="b2602c69:ProjectViewProjectNode" />
               <item name="JP-Programming" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="Chest X-Ray Classification" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="Pycharm Python Code" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JP-Programming" type="b2602c69:ProjectViewProjectNode" />
               <item name="JP-Programming" type="462c0819:PsiDirectoryNode" />
+              <item name="Pycharm Python Code" type="462c0819:PsiDirectoryNode" />
+              <item name="Data Science" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 65eb93ae7c0e097f225ae4ff520d507b01858df6
+            </path>
+            <path>
+              <item name="JP-Programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JP-Programming" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="Chest X-Ray Classification" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="Pycharm Python Code" type="462c0819:PsiDirectoryNode" />
+              <item name="Euler Problems" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JP-Programming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JP-Programming" type="462c0819:PsiDirectoryNode" />
+              <item name="Pycharm Python Code" type="462c0819:PsiDirectoryNode" />
+              <item name="Project Euler Dependencies" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 65eb93ae7c0e097f225ae4ff520d507b01858df6
             </path>
           </expand>
           <select />
@@ -107,8 +199,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="C:/Program Files/Python36/Lib/site-packages/tensorflow/models/research/object_detection/object_detection_tutorial.ipynb" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Pycharm Python Code/Euler Problems" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -120,6 +215,10 @@
       <recent name="D:\Documents\GitHub\JP-Programming\LaserTurret\Computer Vision" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+<<<<<<< HEAD
+=======
+      <recent name="C:\Users\james\Documents\GitHub\JP\JP-Programming\Pycharm Python Code\Euler Problems" />
+>>>>>>> 65eb93ae7c0e097f225ae4ff520d507b01858df6
       <recent name="D:\Documents\GitHub\JP-Programming\LaserTurret\Computer Vision" />
       <recent name="D:\Documents\GitHub\JP-Programming\LaserTurret\Computer Vision\TrainingData\Faces" />
     </key>
@@ -136,7 +235,11 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.__init__">
+=======
+  <component name="RunManager" selected="Python.Euler 82">
+>>>>>>> 65eb93ae7c0e097f225ae4ff520d507b01858df6
     <configuration name="JP-Programming" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="JP-Programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,12 +252,17 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="additionalOptions" value="" />
       <option name="ipnbHost" value="127.0.0.1" />
       <option name="ipnbPort" value="8888" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="AudioManager" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="Euler 38" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 65eb93ae7c0e097f225ae4ff520d507b01858df6
       <module name="JP-Programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -162,11 +270,20 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pycharm Python Code/Data Science/MachineLearning/AI Bot" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pycharm Python Code/Data Science/MachineLearning/AI Bot/AudioManager.py" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pycharm Python Code/Euler Problems" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 38.py" />
+>>>>>>> 65eb93ae7c0e097f225ae4ff520d507b01858df6
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -175,7 +292,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="Euler 81 Alt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="Euler 39" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 65eb93ae7c0e097f225ae4ff520d507b01858df6
       <module name="JP-Programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -187,7 +308,12 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 81 Alt.py" />
+=======
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 39.py" />
+>>>>>>> 65eb93ae7c0e097f225ae4ff520d507b01858df6
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -196,7 +322,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="Euler 81" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="Euler 81 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 65eb93ae7c0e097f225ae4ff520d507b01858df6
       <module name="JP-Programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -208,6 +338,10 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
+=======
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+>>>>>>> 65eb93ae7c0e097f225ae4ff520d507b01858df6
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 81.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -217,7 +351,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="Object_Detection" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="Euler 81" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 65eb93ae7c0e097f225ae4ff520d507b01858df6
       <module name="JP-Programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -225,11 +363,16 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LaserTurret/Computer Vision" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pycharm Python Code/Euler Problems" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LaserTurret/Computer Vision/Object_Detection.py" />
+=======
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\james\Documents\GitHub\JP\JP-Programming\Pycharm Python Code\Euler Problems\Euler 82.py" />
+>>>>>>> 65eb93ae7c0e097f225ae4ff520d507b01858df6
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -238,7 +381,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration name="Euler 82" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 65eb93ae7c0e097f225ae4ff520d507b01858df6
       <module name="JP-Programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -246,11 +393,20 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chest X-Ray Classification" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chest X-Ray Classification/__init__.py" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pycharm Python Code/Euler Problems" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 82.py" />
+>>>>>>> 65eb93ae7c0e097f225ae4ff520d507b01858df6
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -271,6 +427,10 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="" />
+<<<<<<< HEAD
+=======
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+>>>>>>> 65eb93ae7c0e097f225ae4ff520d507b01858df6
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -281,6 +441,7 @@
       <method v="2" />
     </configuration>
     <list>
+<<<<<<< HEAD
       <item itemvalue="Jupyter Notebook.JP-Programming" />
       <item itemvalue="Python.Object_Detection" />
       <item itemvalue="Python.AudioManager" />
@@ -295,6 +456,21 @@
         <item itemvalue="Python.Euler 81" />
         <item itemvalue="Python.Object_Detection" />
         <item itemvalue="Python.AudioManager" />
+=======
+      <item itemvalue="Python.Euler 38" />
+      <item itemvalue="Python.Euler 39" />
+      <item itemvalue="Python.Euler 81" />
+      <item itemvalue="Python.Euler 82" />
+      <item itemvalue="Python.Euler 81 (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Euler 82" />
+        <item itemvalue="Python.Euler 81 (1)" />
+        <item itemvalue="Python.Euler 81" />
+        <item itemvalue="Python.Euler 39" />
+        <item itemvalue="Python.Euler 38" />
+>>>>>>> 65eb93ae7c0e097f225ae4ff520d507b01858df6
       </list>
     </recent_temporary>
   </component>
@@ -309,17 +485,27 @@
       <option name="presentableId" value="Default" />
       <updated>1535831489373</updated>
     </task>
+<<<<<<< HEAD
     <task id="LOCAL-00001" summary="Object Detection">
       <created>1548367707424</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1548367707424</updated>
+=======
+    <task id="LOCAL-00001" summary="Euler 38">
+      <created>1550236901803</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1550236901803</updated>
+>>>>>>> 65eb93ae7c0e097f225ae4ff520d507b01858df6
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
@@ -330,40 +516,71 @@
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49947312" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.62065333" weight="0.37486458" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.9336143" weight="0.3997833" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32719395" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.37934667" side_tool="true" visible="true" weight="0.37486458" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Data View" order="3" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.24973656" />
+=======
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919224" weight="0.28996038" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50080776" side_tool="true" weight="0.24973656" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.37486458" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4966443" visible="true" weight="0.42574257" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39745402" />
+>>>>>>> 65eb93ae7c0e097f225ae4ff520d507b01858df6
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32719395" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052685" side_tool="true" weight="0.37486458" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.37934667" side_tool="true" visible="true" weight="0.37486458" />
+=======
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5033557" side_tool="true" weight="0.3744681" />
+>>>>>>> 65eb93ae7c0e097f225ae4ff520d507b01858df6
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Data View" order="3" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="R Packages" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="SciView" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.28996038" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.50080776" side_tool="true" weight="0.24973656" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4966443" visible="true" weight="0.42574257" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39858156" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32719395" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5033557" side_tool="true" weight="0.3744681" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="3" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="R Packages" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="SciView" order="7" />
     </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -398,6 +615,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+<<<<<<< HEAD
     <MESSAGE value="Object Detection" />
     <option name="LAST_COMMIT_MESSAGE" value="Object Detection" />
   </component>
@@ -408,6 +626,10 @@
         <watch expression="self.path" />
       </configuration>
     </watches-manager>
+=======
+    <MESSAGE value="Euler 38" />
+    <option name="LAST_COMMIT_MESSAGE" value="Euler 38" />
+>>>>>>> 65eb93ae7c0e097f225ae4ff520d507b01858df6
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Pycharm Python Code/Data Science/MachineLearning/Kaggle Competitions/Titanic/Titanic SVM.py">
@@ -428,9 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -447,31 +666,39 @@
     <entry file="file://$PROJECT_DIR$/LaserTurret/Computer Vision/WebcamVision.py" />
     <entry file="file://$PROJECT_DIR$/LaserTurret/Turret_Control.py" />
     <entry file="file://C:/Program Files/Python36/cocoapi/PythonAPI/setup.py" />
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/tensorflow/models/tutorials/image/imagenet/classify_image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/tensorflow/models/tutorials/image/imagenet/classify_image.py" />
     <entry file="file://$PROJECT_DIR$/LaserTurret/test.ipynb" />
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/tensorflow/models/research/object_detection/utils/ops.py">
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/tensorflow/models/research/object_detection/utils/ops.py" />
+    <entry file="file://$USER_HOME$/AppData/Roaming/jupyter/runtime/nbserver-7892-open.html" />
+    <entry file="file://$USER_HOME$/AppData/Roaming/jupyter/runtime/nbserver-6164-open.html" />
+    <entry file="file://$PROJECT_DIR$/LaserTurret/Computer Vision/CameraObjectDetection.py" />
+    <entry file="file://$USER_HOME$/AppData/Roaming/jupyter/runtime/nbserver-6052-open.html" />
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/tensorflow/models/research/object_detection/object_detection_tutorial.ipynb" />
+    <entry file="file://$PROJECT_DIR$/LaserTurret/Computer Vision/ObjectDetection.py" />
+    <entry file="file://$PROJECT_DIR$/LaserTurret/Computer Vision/ssd_mobilenet_v1_coco_11_06_2017/frozen_inference_graph.pb" />
+    <entry file="file://$PROJECT_DIR$/LaserTurret/Computer Vision/Object_Detection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="23" column="86" lean-forward="true" selection-start-line="23" selection-start-column="86" selection-end-line="23" selection-end-column="86" />
+        <state relative-caret-position="572">
+          <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/jupyter/runtime/nbserver-7892-open.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/jupyter/runtime/nbserver-6164-open.html">
+    <entry file="file://$PROJECT_DIR$/LaserTurret/Computer Vision/object_detection_tutorial.ipynb" />
+    <entry file="file://$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="94" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="94" />
+        <state relative-caret-position="330">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 38.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="38" column="32" lean-forward="true" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/LaserTurret/Computer Vision/CameraObjectDetection.py" />
     <entry file="file://$USER_HOME$/AppData/Roaming/jupyter/runtime/nbserver-6052-open.html">
       <provider selected="true" editor-type-id="text-editor" />
@@ -499,10 +726,33 @@
           <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 39.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pycharm Python Code/Project Euler Dependencies/matrix">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="79" column="388" lean-forward="true" selection-start-line="79" selection-start-column="388" selection-end-line="79" selection-end-column="388" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 82.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+          <folding>
+            <element signature="e#288#570#0" />
+>>>>>>> 65eb93ae7c0e097f225ae4ff520d507b01858df6
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/LaserTurret/Computer Vision/ssd_inception_v2_coco_2017_11_17/frozen_inference_graph.pb">
       <provider selected="true" editor-type-id="LargeFileEditor">
         <state relative-caret-position="-1428" />
@@ -561,6 +811,22 @@
             <element signature="e#0#18#0" expanded="true" />
             <element signature="e#86#629#0" />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/Pycharm Python Code/Euler Problems/Euler 81.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="50" column="7" selection-end-line="50" selection-end-column="11" />
+          <folding>
+            <element signature="e#288#570#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pycharm Python Code/Project Euler Dependencies/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="3" />
+>>>>>>> 65eb93ae7c0e097f225ae4ff520d507b01858df6
         </state>
       </provider>
     </entry>
