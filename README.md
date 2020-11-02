@@ -1,8 +1,8 @@
 # JP-Programming
 
-Euler Problems: https://projecteuler.net/archives
-In https://github.com/Jampar/JP-Programming/tree/master/Python/Pycharm%20Python%20Code/Euler%20Problems are my solutions to the problems on the webpage in the above link.
+This repository holds the majority of my work. I have a separete repo for unity game devlopment though at:
+https://github.com/Jampar/Robot-GameDev
 
-Feel free to look at any of my other work.
+Please take a look around, and i hope you enjoy :)
 
 James Parkes
